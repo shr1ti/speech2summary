@@ -1,0 +1,58 @@
+.app {
+  min-height: 100vh;
+}
+
+.app-shell {
+  padding: 24px 0 48px;
+}
+
+.glass-card {
+  background-image:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, #19062b 0%, #2b063a 35%, #3d0642 60%, #1b245c 100%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.section-title {
+  font-family: "Cinzel", "Georgia", serif !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.pink-button {
+  background: linear-gradient(135deg, #c7357e 0%, #e06ab3 55%, #d95aa3 100%);
+  color: #0b0d12;
+  font-weight: 800;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 24px rgba(199, 53, 126, 0.35);
+  backdrop-filter: blur(6px);
+}
+
+.pink-button:hover {
+  background: linear-gradient(135deg, #d04488 0%, #ea78be 55%, #e06ab3 100%);
+  box-shadow: 0 14px 30px rgba(199, 53, 126, 0.45);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.output-text {
+  color: #ffffff;
+}
+
+.accent-chip {
+  display: inline-block;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #101423;
+  color: var(--accent);
+}

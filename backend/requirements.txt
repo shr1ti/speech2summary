@@ -1,0 +1,15 @@
+flask
+flask-cors
+transformers
+torch
+spacy
+openai-whisper
+summa
+bert-score
+rouge-score
+gensim
+nltk
+scikit-learn
+numpy
+soundfile
+sentence-transformers
