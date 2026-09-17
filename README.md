@@ -1,4 +1,4 @@
-﻿# audio2summary
+﻿# speech2summary
 Full-stack app that transcribes audio with Whisper, preprocesses with spaCy, summarizes with BART and extractive methods, and evaluates with BERTScore, ROUGE, MNLI entailment, sentiment proxy, and Sentence-Transformers similarity.
 
 ## Setup
